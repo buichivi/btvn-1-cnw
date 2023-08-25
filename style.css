@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.wrapper {
+    margin-top: 50px;
+}
+
+.grid {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.avatar  {
+    width: 80%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.avatar__img {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.contact-person__heading,
+.hobby__heading,
+.activities__heading,
+.tech-skills__heading,
+.languages__heading,
+.skill__heading {
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.skill__list {
+   margin-left: 30px;
+}
+
+.skill__item {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.skill__item + .skill__item {
+    margin-top: 10px;
+}
+
+.languages {
+   margin-bottom: 20px;
+}
+
+.languages__heading {
+    
+}
+
+.tech-skills__list,
+.languages__list {
+   list-style-type: none;
+   padding-left: 0;
+}
+
+.tech-skills__item,
+.languages__item {
+   display: flex; 
+}
+
+.tech-skills__name,
+.languages__name {
+    flex: 4;
+    font-size: 16px;
+}
+
+
+.fluent__list {
+    flex: 6;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+}
+
+.fluent__item {
+    font-size: 14px;
+    color: #ccc;
+}
+
+.fluent__item.active {
+    color: #000;
+}
+
+.fluent__item + .fluent__item {
+    margin-left: 16px;
+}
+
+.tech-skills {
+    margin-bottom: 20px;
+}
+
+.tech-skills__heading {
+
+}
+
+.tech-skills__list {
+
+}
+
+.tech-skills__item {
+
+}
+
+.tech-skills__item +  .tech-skills__item{
+    margin-top: 14px;
+}
+
+.tech-skills__name {
+
+}
+
+
+.activities {
+    margin-bottom: 20px;
+}
+
+.activities__heading {
+
+}
+
+.activities__list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.activities__item {
+    
+}
+
+.activities__time {
+    display: block;
+    margin-bottom: 12px;
+}
+
+.activities__name {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.activities__name > span {
+    display: block;
+}
+
+.activities__desc {
+    list-style-type: disc;
+    margin-left: 30px;
+    width: 70%;
+}
+
+.activities__desc-item {
+    line-height: 1.5
+}
+.activities__desc-item + .activities__desc-item  {
+    margin-top: 12px;
+}
+
+.hobby {
+    margin-bottom: 20px
+}
+
+.hobby__heading {
+
+}
+
+.hobby__list {
+    margin-left: 30px;
+}
+
+.hobby__item {
+
+}
+
+.hobby__item + .hobby__item {
+    margin-top: 10px;
+}
+
+.contact-person {
+
+}
+
+.contact-person__heading {
+
+}
+
+.contact-person__list {
+    margin-left: 30px;
+}
+
+.contact-person_item {
+
+}
+
+.contact-person__name {
+    font-weight: 500;
+}
+
+.contact-person__company {
+    margin-top: 12px;
+}
+.contact-person__company > span {
+    display: block;
+    line-height: 1.5;
+}
